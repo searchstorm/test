@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_181">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/lib/ant-1.9.6.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/lib/ant-launcher-1.9.6.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/lib/asm-5.2.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/lib/cglib-3.2.5.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/lib/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/lib/javassist-3.22.0-GA.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/lib/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/lib/log4j-api-2.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/lib/log4j-core-2.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/lib/ognl-3.1.16.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/lib/slf4j-api-1.7.25.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/lib/slf4j-log4j12-1.7.25.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/Mybatis/mybatis-3.4.6/mybatis-3.4.6/mybatis-3.4.6.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/sqljdbc4.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/asm-3.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/jackson-core-asl-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/jackson-jaxrs-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/jackson-mapper-asl-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/jackson-xc-1.8.3.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/jersey-client-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/jersey-core-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/jersey-json-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/jersey-server-1.9.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/jsr311-api-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-aop-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-aop-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-aspects-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-beans-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-beans-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-context-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-context-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-context-support-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-core-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-core-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-expression-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-expression-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-instrument-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-orm-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-oxm-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-test-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-test-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-tx-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-tx-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-web-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-web-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-webmvc-4.0.0.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/spring-webmvc-4.2.5.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/javax.ws.rs-api-2.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/commons-fileupload-1.2.2.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/commons-pool-1.6.jar"/>
+	<classpathentry kind="lib" path="D:/eclipse-java/项目散文件/rest/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>

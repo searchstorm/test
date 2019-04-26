@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+	 PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd" >
+<configuration>
+	<typeAliases>
+		<typeAlias alias="stu" type="com.po.Stu"/>
+		<typeAlias alias="user" type="com.po.User"/>
+		<typeAlias alias="kc" type="com.po.Kc"/>
+		<typeAlias alias="sc" type="com.po.Sc"/>
+		<typeAlias alias="manager" type="com.po.Manager"/>
+		<typeAlias alias="cjpm" type="com.po.Cjpm"/>
+	</typeAliases>
+	<environments default="development">
+		<environment id="development">
+			<transactionManager type="JDBC">
+				<property name="autoCommit" value="false"/>
+			</transactionManager>
+			<dataSource type="POOLED">
+				<property name="driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+				<property name="url"  value="jdbc:sqlserver://127.0.0.1:1433;DatabaseName=Student"/>
+				<property name="username" value="sa"/>
+				<property name="password" value="123456"/>
+			</dataSource>
+		</environment>
+	</environments>
+	<mappers>
+		<mapper resource="com\mapper\stuMapper.xml"/>
+		<mapper resource="com\mapper\userMapper.xml"/>
+		<mapper resource="com\mapper\kcMapper.xml"/>
+		<mapper resource="com\mapper\scMapper.xml"/>
+		<mapper resource="com\mapper\managerMapper.xml"/>
+		<mapper resource="com\mapper\cjpmMapper.xml"/>
+	</mappers>
+</configuration>

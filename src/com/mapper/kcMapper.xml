@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.KcMapper">
+
+	<select id="getKcs" parameterType="String" resultType="kc">
+		select * from kc ;commit tran
+	</select>
+	<select id="getCnos" parameterType="String" resultType="String">
+		select cno from kc ;commit tran
+	</select>
+	<select id="getKc" parameterType="String" resultType="kc">
+		select * from kc where cno=#{cno};commit tran
+	</select>
+	<insert id="insertKc" parameterType="kc" >
+		insert into kc(cno,cname,credit)  values (#{cno},#{cname},#{credit});commit tran
+	</insert>
+	<delete id="deleteKc" parameterType="String" >
+		delete from kc where cno=#{cno};commit tran
+	</delete>
+</mapper>

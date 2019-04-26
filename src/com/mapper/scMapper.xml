@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.ScMapper">
+	<select id="getSc" parameterType="String" resultType="sc">
+		select * from xxxx where sno=#{sno};commit tran
+	</select>
+	<select id="getScs" parameterType="String" resultType="sc">
+		select * from xxxx ;commit tran
+	</select>
+	<select id="getgrade" parameterType="String" resultType="sc">
+		select grade from xxxx where sno=#{sno} AND cno=#{cno};commit tran
+	</select>
+	<select id="getSnos" parameterType="String" resultType="String">
+		select distinct sno from xxxx ;commit tran
+	</select>
+	<insert id="insertSc" parameterType="sc" >
+		insert into xxxx(sno,cno,grade)  values (#{sno},#{cno},#{grade});
+	</insert>
+	<delete id="deleteSc" parameterType="sc" >
+		delete from xxxx where sno=#{sno} AND cno=#{cno};
+	</delete>
+	<delete id="deleteScs" parameterType="String" >
+		delete from xxxx where sno=#{sno} ;
+	</delete>
+	<update id="updateSc" parameterType="sc" >
+	    update xxxx set grade=#{grade} where sno=#{sno} AND cno=#{cno};
+	</update>
+</mapper>
